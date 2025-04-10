@@ -516,7 +516,7 @@ const styles = StyleSheet.create({
   },
   feedbackText: {
     position: 'absolute',       
-    bottom: 80,                
+    bottom: 150,                
     textAlign: 'center',
     fontSize: 16,
     fontStyle: 'italic',
@@ -526,7 +526,7 @@ const styles = StyleSheet.create({
   switchWrapper: {
     zIndex: 100,
     elevation: 100,
-    marginTop: 20,
+    marginTop: 30,
   },
   switchTouchable: {
     padding: 10,
@@ -673,8 +673,8 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: 0,
     left: 0,
-    width: 300,         // full screen width
-    height: 200,          // or adjust as per design
+    width: 350,         // full screen width
+    height: 250,          // or adjust as per design
     zIndex: 10,
   }  
 });
