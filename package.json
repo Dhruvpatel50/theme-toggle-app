@@ -2,8 +2,12 @@
   "name": "switchapp",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://Dhruvpatel50.github.io/theme-toggle-app",
+
   "scripts": {
     "start": "expo start",
+    "predeploy": "expo export --platform web",
+    "deploy": "gh-pages -d dist",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web"
@@ -13,15 +17,17 @@
     "@react-native-async-storage/async-storage": "1.23.1",
     "@react-native-voice/voice": "^3.2.4",
     "expo": "~52.0.43",
+    "expo-av": "~15.0.2",
+    "expo-speech": "~13.0.1",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
+    "react-dom": "18.3.1",
     "react-native": "0.76.9",
-    "react-native-web": "~0.19.13",
-    "expo-speech": "~13.0.1",
-    "expo-av": "~15.0.2"
+    "react-native-web": "~0.19.13"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "gh-pages": "^6.3.0"
   },
   "private": true
 }
